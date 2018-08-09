@@ -1,0 +1,80 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="motivation.css">
+
+  </head>
+  <body>
+
+    <center><h2>Become a better athlete, designer, speaker, etc by taking in these tips and running with them; the destination is your choice.</h2>
+    <div class="dropdown">
+
+     <button onclick="myFunction()" class="dropbtn">What is it That You Need To Accomplish? &#9660; </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#work">Get Up for Work/School</a>
+        <a href="#day">Seize the Day</a>
+        <a href="#consistency ">Consistency</a>
+        <a href="#dreams">Chase Your Dreams</a>
+        <a href="#health">Healthier Lifestyle</a>
+        <a href="#best">Be the Best Version of Yourself</a>
+        <a href="#move">Moving On to the Next</a>
+        <a href="#Other's Journeys">Other's Journeys</a>
+        <button class="button button4">12px</button>
+
+      </div>
+    </div>
+
+  </center>
+      <h3><center><marquee behavior="scroll" direction="right">It is Always the Journey Not The Destination </marquee></h1></h3></center>
+
+
+
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+
+</body>
+
+<div class="row">
+  <div class="column">
+    <img class="img-fluid"src="http://78.media.tumblr.com/aab75ac24a9166f1cdb9a054331ce556/tumblr_myzvhhteSV1stnh9lo1_500.gif" style="width:100%" >
+    <img class="img-fluid" src="http://media02.hongkiat.com/black-white-photo-water/dramatic-water.jpg" style="width:100%">
+    <img class="img-fluid" src="https://i.giphy.com/media/pQjyuUOmCBkfm/giphy.webp" style="width:100%">
+  </div>
+<div class="column">
+  <img src="http://www.openprogrammer.info/wp-content/uploads/2015/11/motivation-software-engineering.jpg" style="width:100%">
+  <img src="https://omgquotes.com/wp-content/uploads/2017/09/motivational-quotes-inspirational-print-inspire-black-and-white-by-themotivatedtype.jpg" style="width:100%">
+  <img src="https://i.ytimg.com/vi/6uhCxBk6cQE/maxresdefault.jpg" style="width:100%">
+
+</div>
+<div class="column">
+  <img src="https://img00.deviantart.net/8a1b/i/2013/084/f/1/jessica_punching_bag_by_aquarianphotography-d5zaxx2.jpg" style="width:100%">
+  <img src="https://i.huffpost.com/gen/2713444/original.jpg"style="width:100%">
+  <img src="https://img.etsystatic.com/il/d4ba3f/626973795/il_570xN.626973795_dd8b.jpg?version=0" style="width:100%" >
+</div>
+</div>
+
+
+</html>
